@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken')
 const bcryptjs = require('bcryptjs')
-const conexion = require('../databaseS/db')
+const conexion = require('../src/databases/db')
 const {promisify} = require('util')
 const { error } = require('console')
 

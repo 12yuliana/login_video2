@@ -19,7 +19,7 @@ dotenv.config({path:'./env/.env'})
 app.use(cookieparser())
 
 //llamar las routers
-app.use('/',require('./router/router.js'))
+app.use('/',require('../router/router.js'))
 
 
 // app.get('/',(req,res)=>{
